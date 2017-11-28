@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Padauk');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+
+
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #000;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 7px;
+}
+
+header img {
+  padding: 10px 25px;
+  float: left;
+}
+
+header nav {
+  margin-top: 0px;
+  margin-left: 85px;
+  padding-top: 6px;
+  display: none;
+  float: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+header hr {
+  border: 2px solid #000;
+  margin-bottom: 2px;
+  margin: 5px 5px 0px 0px;
+}
+
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+header nav ul li.navTitle {
+  text-transform: uppercase;
+  font-family: 'Fugaz One', cursive;
+  font-weight: 300;
+  list-style: none;
+  color: #000;
+  font-size: 14px;
+  padding-right: 28px;
+  padding-top: 5px;
+}
+
+.hamburgerMenu {
+  float: right;
+  width: 50px;
+  margin-top: 27px;
+ 
+}
+
+/***********BoxRelease***********/
+
+#boxRelease {
+	background-image: url("../images/home.png");
+	background-size: cover;
+	background-position: center;
+	height: 230px;
+	width: 100%;
+	overflow: hidden;
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+
+/***********Three Columns***********/
+
+.column1 {
+  background-image: url("../images/wheatairforce.jpg");
+  background-size: 496px;
+  background-position: center;
+
+}
+
+.column2 {
+  background-color: black;
+}
+
+.column3 {
+  background-image: url("../images/yeezyboost350.jpg");
+  background-size: 507px;
+  background-position: center;
+
+}
+
+.IQ {
+  margin: 40px 0px 0 103px
+}
+
+
+#threeColumns aside.box {
+  /*background: rgba(170,95,152,0.75);*/
+  height: auto;
+  max-height: 95px;
+  max-width: 132px;
+  float: right;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+  padding: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+#threeColumns {
+  display: inline;
+} 
+
+#threeColumns .column1,
+#threeColumns .column2,
+#threeColumns .column3 {
+  margin: 25px 88px;
+  padding-bottom: 154px;
+  border: 1px solid black;
+  width: 556px;
+  height: 195px;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+} 
+
+#threeColumns .column1 h2,
+#threeColumns .column3 h2  {
+  font-family: 'Fugaz One', cursive;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+}
+
+#threeColumns .column2 p {
+  font-family: 'Fugaz One', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.5;
+  width: 70%;
+  text-align: center;
+  color: white;
+  margin-left: 10px;
+  display: block;
+  padding: 5px;
+
+}
+
+/**************BLOG***********/
+
+
+h1 {
+  font-family: 'Fugaz One', cursive;
+  font-size: 40px;
+  color: #000;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+article span:after {
+  content: "|";
+  padding: 10px;
+  color: #000;
+}
+
+article span {
+  color: #000;
+}
+
+article h3 {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 30px;
+}
+
+article hr {
+
+  border: 1px solid red;
+}
+
+article img {
+  margin-bottom: 15px;
+}
+
+.rightSide {
+  display: none;
+}
+
+#articles.leftSide button {
+  font-family: 'Padauk', sans-serif;
+    color: #ffffff;
+    background-color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 9px 14px;
+    margin-top: 5px;
+    border: 0;
+    outline: 0;
+    text-transform: lowercase;
+    border-radius: 10px;
+}
+
+
+#articles.leftSide h1 span {
+  text-decoration: underline red;
+}
+
+/***********Footer***********/
+
+footer {
+	font-family: 'Padauk', sans-serif;
+	background-color: #ffffff;
+  min-height: 150px;
+  padding: 24px 0px 0px 125px;
+  border-top: 2px solid black;
+
+}
+
+footer img {
+	width: 220px;
+    height: 60px;
+    margin: 5px 0px 0px 134px; 
+}
+
+footer p {
+	font-size: 12px;
+	color: #000;
+	margin: 2px 0px 5px 179px;
+}
+
+footer ul li,
+footer h5 {
+	list-style: none;
+	color: #000;	
+}
+
+footer ul {
+	margin-left: 171px;
+} 
+
+footer ul li {
+	display: inline;
+	margin-right: 8px;
+}
+
+footer h5 {
+	display: none;
+}
+
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/***********Header***********/
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+header {
+	padding: 15px 0px 15px 0px;
+  margin-bottom: 0;
+}
+
+header img {
+	padding: 10px 0px 0px 569px;
+	float: none;
+	
+}
+
+
+header nav {
+  margin: 20px 50px 25px 58px;
+	padding-top: 0px;
+	display: inline;
+}
+
+header ul {
+    margin: 20px 0 -30px 400px;
+}
+
+
+header nav ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+header nav ul li.navTitle {
+	text-transform: uppercase;
+	font-family: 'Fugaz One', cursive;
+	font-weight: 300;
+	list-style: none;
+
+}
+
+.hamburgerMenu {
+  display: none;
+}
+
+/**********BoxRelease***********/
+
+#boxRelease {
+	height: 570px;
+	overflow: visible;
+}
+
+
+/***********Three Columns***********/
+
+a:hover {
+    color: black;
+}
+
+.column1 {
+	background-image: url("../images/wheatairforce.jpg");
+	background-size: 462px;
+	background-position: center;
+
+}
+
+.column2 {
+	background-color: black;
+}
+
+.column3 {
+	background-image: url("../images/yeezyboost350.jpg");
+	background-size: 468px;
+	background-position: center;
+
+}
+
+.IQ {
+	margin: 12px 0px 0 90px;
+}
+
+#threeColumns {
+	display: flex;
+} 
+
+#threeColumns .column1,
+#threeColumns .column2,
+#threeColumns .column3 {
+	margin: 25px 27px;
+	padding-bottom: 154px;
+  border: 1px solid black;
+  width: 425px;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+} 
+
+#threeColumns aside.box {
+  /*background: rgba(170,95,152,0.75);*/
+  height: auto;
+  max-height: 95px;
+  max-width: 132px;
+  float: right;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+  padding: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#threeColumns .column1 h2,
+#threeColumns .column3 h2  {
+	font-family: 'Fugaz One', cursive;
+	font-weight: 700;
+	font-size: 18px;
+	color: #000;
+}
+
+#threeColumns .column2 p {
+	font-family: 'Fugaz One', cursive;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 1.5;
+	width: 70%;	
+	text-align: center;
+	color: white;
+  margin-left: 7px;
+  display: inline-block;
+}
+
+/*****************Blog*****************/
+
+h1 {
+	font-family: 'Fugaz One', cursive;
+	font-size: 60px;
+	color: #ffffff;
+	padding-bottom: 37px;
+  padding-top: 0px;
+
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-family: 'Fugaz One', cursive; 
+
+}
+
+section {
+  padding: 75px 150px 0px 100px;
+  background-color: #ffffff;
+
+}
+
+article p {
+  font-family: 'Padauk', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #606060;
+    line-height: 32px;
+}
+
+article p::first-letter {
+    float: left;
+    font-size: 300%;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+article div {
+    text-align: right;
+}
+
+article img {
+  max-width: 710px; 
+  margin-top: 11px;
+  border: 4px solid white;
+}
+
+article span:after {
+  content: "|";
+  padding: 10px;
+  color: white;
+}
+
+article span {
+  color: white;
+}
+
+article h3 {
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 30px;
+}
+
+article h3,
+article img,
+article p {
+    margin-bottom: 30px;
+}
+
+
+hr {
+    width: 100%;
+    margin: 40px 0px 50px 0px;
+    border: 1px solid red;
+}
+
+aside {
+    width: 240px;
+    color: #ffffff;
+}
+
+input {
+  margin-left: 53px;
+ }
+
+input,
+span button {
+  margin-top: 200px;
+}
+
+span button {
+  font-family: 'Padauk', sans-serif;
+  color: #ffffff;
+  background-color: #000;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 3px 11px;
+  margin: 2px 0px 0 123px;
+  border: 0;
+  outline: 0;
+  text-transform: lowercase;
+  border-radius: 10px;
+}
+
+
+.blog  {
+background: url("../images/blogbk.png") no-repeat bottom center;  
+background-size: cover;
+position: relative;
+background-attachment: fixed;
+
+}
+
+.blog:after {
+     content: "";
+     display: block;
+     clear: both;
+} 
+
+.blog {
+  clear: both;
+}
+
+.leftSide {
+  float: left;
+  padding-left: 35px;
+}
+
+.rightSide {
+  float: right;
+  margin-top: 40px;
+  padding-left: 160px;
+  display: inline;
+}
+
+.inputGroup {
+  margin-bottom: 10px;
+  background-image: url("../images/subscribe.png");
+  min-height: 287px;
+  min-width: 317px;
+  display: inline-block;
+}
+
+#articles {
+    width: 700px;
+}
+
+#articles.leftSide button {
+	font-family: 'Padauk', sans-serif;
+  color: #ffffff;
+  background-color: #000;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 9px 14px;
+  margin-top: 5px;
+  border: 0;
+  outline: 0;
+  text-transform: lowercase;
+  border-radius: 10px;
+}
+
+#about {
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 40px;
+  font-weight: 800;
+  width: 240px;
+}
+
+#about p {
+  font-weight: 300;
+  max-height: 110px;
+  font-size: 15px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: 'Padauk', sans-serif;
+}
+
+#about button {
+  font-family: 'Padauk', sans-serif;
+  color: #ffffff;
+  background-color: #000;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 9px 14px;
+  margin-top: 5px;
+  border: 0;
+  outline: 0;
+  text-transform: lowercase;
+  border-radius: 10px;
+}
+
+#about img {
+	max-width: 241px;
+	margin-bottom: 10px;
+	border: 2px solid white;
+}
+
+
+#articles.leftSide h1 span {
+	text-decoration: underline red;
+}
+
+
+ 
+/***********Footer***********/
+
+footer {
+	background-color: white;
+    min-height: 150px;
+    padding: 0px 0px 0px 28px;
+    display: flex;
+    border-top: 2px solid #000;
+}
+
+footer img {
+	width: 220px;
+    height: 60px;
+    margin: 55px 0px 0px 60px 
+}
+
+footer p {
+	margin: 144px -45px 15px 374px;
+	font-size: 12px;
+	color: #000;
+}
+
+footer ul li,
+footer h5 {
+	list-style: none;
+	color: black;	
+}
+
+footer ul li {
+	display: inline;
+	margin-right: 8px;
+}
+footer ul {
+	margin-left: 0px;
+  text-decoration: none;
+
+}
+
+footer ul li i:hover {
+  color: black;
+  text-decoration: none;
+}
+
+footer h5 {
+	font-size: 21px;
+    font-weight: 300;
+    display: flex;
+    font-family: 'Fugaz One', cursive;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+footer div{
+	margin: 28px 0px 0px 478px;
+}
+
